@@ -1,0 +1,18 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e74948b1-eba8-4a47-804c-c630955f93e3" name="dataviz-front" url="http://localhost:3000">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="40f1e65f-3c4a-4952-aeb0-1596acd4df01" name="admin@cms" url="http://aleboucher.fr.admin.devwebedia.com/">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="bd51d97e-e41b-4dac-9ca2-13ae2eee117a" name="admin@dev2" url="http://aleboucher.fr.admin.devwebedia.com/">
+        <fileTransfer mountedRoot="$USER_HOME$/dev2/www/admin" accessType="MOUNT" />
+      </webServer>
+      <webServer id="f60e74b1-41b2-4584-a8eb-741d038f0d54" name="dev2" url="http://aleboucher.purepeople.dev.webedia.io">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>
